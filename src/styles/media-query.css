@@ -1,0 +1,30 @@
+@media only screen and (max-width: 920px){
+    .stat-container{
+        display: block;
+    }
+    .report-card-body .this-week-div,
+    .report-card-body .last-week-div{
+        width: 100%;
+    }
+    .stat-container .report-card{
+        width: 97%;
+    }
+    .report-card .report-img{
+        width: 100%;
+    }
+
+    .stat-container .order-card{
+        width: 97%;
+    }
+}
+
+@media only screen and (max-width: 720px){
+    .main-content .greeting-header{
+        display: block;
+    }
+}
+@media only screen and (max-width: 580px){
+    .card-div .card-body{
+        width: 100%;
+    }
+}

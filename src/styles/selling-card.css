@@ -1,0 +1,52 @@
+.selling-card .selling-card-header {
+    position: relative;
+}
+
+.selling-card-body-img-div .selling-card-body-img {
+    width: 220px;
+    height: 180px;
+}
+
+.selling-card-header .selling-card-sort-content {
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    display: none;
+}
+
+.selling-card-sort-content .selling-sort-nav-item {
+    list-style-type: none;
+}
+
+.selling-card-sort-content .selling-sort-nav-item:hover {
+    background-color: var(--scroll);
+}
+
+.selling-card-sort-content .selling-sort-nav-item:hover .selling-sort-nav-item-link {
+    color: var(--primary);
+}
+
+.selling-card-sort-content .selling-sort-nav-item-link {
+    text-decoration: none;
+}
+
+.selling-sort-text:focus +.selling-card-sort-content {
+    display: block;
+}
+
+.selling-card-category .selling-element {
+    display: flex;
+    justify-content: space-between;
+}
+
+.selling-category-item .bxs-circle {
+    font-size: 10px;
+}
+
+.selling-category-div .selling-category-status {
+    margin-inline-start: 15px;
+}
+
+.selling-category-status .selling-category-percentage {
+    margin-inline-start: 5px;
+}

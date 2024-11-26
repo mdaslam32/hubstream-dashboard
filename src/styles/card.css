@@ -1,0 +1,20 @@
+.card-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-body {
+    width: 250px;
+}
+
+.card-icon .bx {
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.card-stats .card-link {
+    width: 70%;
+}

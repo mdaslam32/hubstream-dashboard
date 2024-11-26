@@ -1,0 +1,22 @@
+.transaction-card .transaction-card-header {
+    position: relative;
+}
+
+.transaction-card-body .transaction-element {
+    display: flex;
+    justify-content: space-between;
+}
+
+.transaction-icon-div .bx {
+    margin-right: 10px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+.transaction-item .transaction-method {
+    margin-top: 5px;
+}
+
+.amount-stats .amount-text {
+    margin-bottom: 5px;
+}

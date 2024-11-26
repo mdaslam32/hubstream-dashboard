@@ -1,0 +1,17 @@
+.country-card .country-card-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.country-card-body .country-element {
+    display: flex;
+}
+
+.country-img-div .country-img {
+    width: 40px;
+    height: 40px;
+}
+
+.country-element .country-item {
+    margin-inline-start: 20px;
+}

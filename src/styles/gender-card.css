@@ -1,0 +1,25 @@
+.main-content {
+    margin-inline-start: 60px;
+}
+
+.gender-card {
+    padding-bottom: 20px;
+}
+
+.gender-img-div .gender-img {
+    width: 220px;
+    height: 100px;
+}
+
+.gender-card-body .gender-element {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gender-item .gender-title {
+    margin-inline: 10px;
+}
+
+.gender-item .bxs-circle {
+    font-size: 10px;
+}

@@ -1,0 +1,43 @@
+.stat-container {
+    display: flex;
+}
+
+.report-card .report-card-header {
+    position: relative;
+}
+
+.report-title {
+    width: 80%;
+}
+
+.report-card-header .sort-content {
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    display: none;
+}
+
+.sort-content .sort-nav-item {
+    list-style-type: none;
+}
+
+.sort-content .sort-nav-item:hover {
+    background-color: var(--scroll);
+}
+
+.sort-content .sort-nav-item:hover .sort-nav-item-link {
+    color: var(--primary);
+}
+
+.sort-content .sort-nav-item-link{
+    text-decoration: none;
+}
+
+.sort-text:focus +.sort-content{
+    display: block;
+}
+
+.report-img-div .report-img{
+    width: 100%;
+    height: 100%;
+}

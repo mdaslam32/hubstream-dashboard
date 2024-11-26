@@ -1,0 +1,16 @@
+@import url(boiler-plate.css);
+@import url(header.css);
+@import url(greeting-header.css);
+@import url(side-navbar.css);
+@import url(main-content.css);
+@import url(card.css);
+@import url(report-card.css);
+@import url(order-card.css);
+@import url(selling-card.css);
+@import url(country-card.css);
+@import url(gender-card.css);
+@import url(activity-card.css);
+@import url(transaction-card.css);
+@import url(browser-card.css);
+@import url(footer.css);
+@import url(media-query.css);

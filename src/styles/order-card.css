@@ -1,0 +1,15 @@
+.order-card-range .order-card-btn {
+    padding: 6px 12px;
+    border: none;
+}
+
+.order-card-range .order-card-btn:hover {
+    color: var(--white);
+    background-color: var(--primary);
+    transition: 0.2s;
+}
+
+.order-card-range .btn-export:hover {
+    background-color: var(--slide-category);
+    transition: 0.2s;
+}

@@ -1,0 +1,13 @@
+.activity-card-body .activity-item {
+    display: flex;
+}
+
+.activity-item .activity-time-div {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.activity-item .activity-text {
+    margin-left: 20px;
+}

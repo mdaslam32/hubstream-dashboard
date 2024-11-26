@@ -1,0 +1,120 @@
+@font-face {
+    font-family: quicksand-font;
+    src: url(../assets/fonts/Quicksand/static/Quicksand-Regular.ttf);
+}
+
+* {
+    font-family: quicksand-font;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body-color:#f5f6fa;
+    --primary: #735dff;
+    --white: #ffffff;
+    --card-bg: #f7f8fa;
+    --black: #000000;
+    --slide-category: #61748f;
+    --border-line: #e6eff1;
+    --scroll: #edeff0;
+    --green : #0cc763;
+    --orange: #ff5a29;
+    --yellow: #ff9a13;
+    --red: #ff383c;
+    --teal: #0dcaf0;
+    --sky-blue: #0c9cfc;
+}
+
+.main {background-color: var(--body-color)}
+.primary {color: var(--primary)}
+.white {color: var(--white)}
+.black {color: var(--black)}
+.slide-category {color: var(--slide-category)}
+.green {color: var(--green)}
+.orange {color: var(--orange)}
+.yellow {color:var(--yellow)}
+.red {color: var(--red)}
+.teal {color: var(--teal)}
+.sky-blue {color: var(--sky-blue)}
+
+.primary-bg {background-color: var(--primary)}
+.white-bg {background-color: var(--white)}
+.card-bg {background-color: var(--card-bg)}
+.black-bg {background-color: var(--black)}
+.slide-category-bg {background-color: var(--slide-category)}
+.green-bg {background-color: var(--green)}
+.orange-bg {background-color: var(--orange)}
+.yellow-bg {background-color: var(--yellow)}
+.red-bg {background-color: var(--red)}
+.teal-bg {background-color: var(--teal)}
+.sky-blue-bg {background-color: var(--sky-blue)}
+
+.d-inline {display: inline}
+
+.float-left {float: left}
+
+.float-right {float: right}
+
+.p-5 {padding: 5px}
+
+.p-10 {padding: 10px}
+
+.p-20 {padding: 20px}
+
+.pt-10 {padding-top: 10px}
+
+.pb-5 {padding-bottom: 5px}
+
+.m-10 {margin: 10px}
+
+.m-20{margin: 20px}
+
+.mt-5 {margin-top: 5px}
+
+.mt-10 {margin-top: 10px}
+
+.mr-15 {margin-right: 15px}
+
+.mb-30{ margin-bottom: 30px}
+
+.fs-13 {font-size: 13px}
+
+.fs-14 {font-size: 14px}
+
+.fs-20 {font-size: 20px}
+
+.fw-600 {font-weight: 600}
+
+.text-align-center {text-align: center}
+
+.border-radius-4 {border-radius: 4px}
+
+.border {border: 1px solid var(--border-line)}
+
+.border-bottom {border-bottom: 1px solid var(--border-line)}
+
+.cursor-pointer {cursor: pointer}
+
+.text-overflow {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    display: none;
+}
+  
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--white); 
+    border-radius: 5px;
+    margin: 70px 0px 2px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: var(--scroll); 
+    border-radius: 10px;
+}

@@ -1,0 +1,18 @@
+.greeting-div .greeting-text {
+    font-size: 13px;
+    color: var(--slide-category);
+}
+
+.export-data .choose-date {
+    width:200px;
+    border: none;
+}
+
+.export-data .export-btn {
+    border: none;
+}
+
+.export-btn .bx-export {
+    font-size: 16px;
+    padding-inline: 5px;
+}

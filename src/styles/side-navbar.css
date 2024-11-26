@@ -1,0 +1,128 @@
+.nav-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-right: 1px solid var(--border-line);
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.sidebar-logo {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hubstream-logo {
+    width: 180px;
+    height: 24px;
+    display: none;
+}
+
+.hubstream-icon {
+    width: 45px;
+    height: 45px;
+}
+
+.nav-container:hover {
+    width: 240px;
+}
+
+.nav-sub {
+    margin-left: 40px;
+    border-left: 1px solid var(--border-line);
+}
+
+.nav-sub .nav-sub-item {
+    list-style-type: none;
+    font-size: 14px;
+    margin: 4px 0px;
+    padding:7px 16px;
+}
+
+.nav-sub-item .nav-sub-item-link {
+    text-decoration: none;
+    color: var(--slide-category);
+}
+
+.slide-category-item {
+    padding-top: 20px;
+}
+
+.slide-category-item .category-name {
+    text-transform: uppercase;
+    padding:12px 20px;
+    display: none;
+}
+
+.slide-category-item .bx-circle {
+    font-size: 7px;
+    margin-left: 25px;
+}
+
+.nav-menu .nav-item {
+    list-style-type: none;
+    padding: 10px;
+    margin-inline: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.nav-menu .nav-item:hover {
+    background-color: var(--primary);
+    border-radius: 4px;
+}
+
+.nav-menu .nav-item:hover .bx,
+.nav-menu .nav-item:hover .nav-item-link {
+    color: var(--white);
+    transition: 0.2s;
+}
+
+.active {
+    color: var(--white) !important;
+    background-color: var(--primary);
+    border-radius: 4px;
+}
+
+.nav-item .nav-item-link {
+    text-decoration: none;
+    color: var(--slide-category);
+    display: none;
+}
+
+.nav-item .bx-chevron-right {
+    display: none;
+}
+
+.nav-container:hover .nav-menu .slide-category-item .category-name,
+.nav-container:hover .nav-menu .nav-item .nav-item-link,
+.nav-container:hover .nav-menu .nav-item .bx-chevron-right {
+    display: inline;
+}
+
+.nav-container:hover .sidebar-logo .hubstream-icon,
+.nav-container:hover .nav-menu .slide-category-item .bx-circle {
+    display: none;
+}
+
+.nav-container:hover .sidebar-logo .hubstream-logo {
+    display:block;
+}
+
+.nav-content {
+    display: none;
+}
+
+.nav-item:focus + .nav-content{
+    display: inline-flex;
+}

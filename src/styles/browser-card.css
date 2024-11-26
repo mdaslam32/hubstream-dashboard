@@ -1,0 +1,24 @@
+.browser-img-div .browser-img {
+    width: 40px;
+    height: 40px;
+}
+
+.browser-card-body .browser-element {
+    width: 100%;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.progress-div .progress-bar {
+    margin-inline-start: 10px;
+    width: 80vw;
+}
+
+.browser-info .browser-title {
+    margin: 5px 10px;
+}
+
+.browser-stats .browser-percentage {
+    margin-right: 10px;
+}
